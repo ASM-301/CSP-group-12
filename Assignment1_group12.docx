@@ -1,0 +1,18 @@
+Vehicle Routing Problem
+Assignment 1
+Group 12
+-	Variables:
+•	Vehicle routes that consist of a sequence of nodes (Customers or depots)
+•	The Decision variables represents the sequence of visits for each Variable
+
+-	Domain:
+•	The possible routes of each vehicle that consists of all permutations of customer nodes that respect the vehicle’s capacity and cost window constraints
+
+-	Constraints: 
+•	Capacity constraint*
+•	Cost constraint*
+•	Routing constraint: Each customer must be visited exactly once by one vehicle
+•	Depot constraint: each route must start and end at the same depot.
+
+-	Objective:
+Our objective is to minimize the total distance travelled and the cost 
